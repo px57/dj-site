@@ -1,3 +1,9 @@
 from django.shortcuts import render
+from kernel.http.response import Response
 
-# Create your views here.
+def info(request):
+    """
+        @description:
+    """
+    res = Response(request=request)
+    return res.success()
