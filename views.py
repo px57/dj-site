@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from kernel.http.response import Response
+from gpm.http.response import Response
 
 def info(request):
     """

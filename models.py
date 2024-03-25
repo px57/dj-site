@@ -1,4 +1,4 @@
-from kernel.models.base_metadata_model import BaseMetadataModel
+from gpm.models.base_metadata_model import BaseMetadataModel
 from django.db import models
 
 class Site(models.Model):
